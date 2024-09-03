@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
 }
 body {
     display: flex;
@@ -11,12 +11,12 @@ body {
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background: linear-gradient( #007acc, #6DD5FA, #FFFFFF);
+    background: linear-gradient(#007acc, #6dd5fa, #ffffff);
 }
-#paragraph{
+#paragraph {
     color: #646669;
 }
-.result-details{
+.result-details {
     color: white;
 }
 ::selection {
@@ -24,11 +24,11 @@ body {
     background: #007acc;
 }
 .wrapper {
-    width: 700px;
+    width: 800px;
     padding: 35px;
     background: #1e1e1e;
     border-radius: 10px;
-    box-shadow: 0 10px 15px rgba(0,0,0,0.05);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.05);
 }
 .wrapper .input-field {
     opacity: 0;
@@ -63,9 +63,9 @@ body {
     color: #ca4754;
     border-radius: 4px;
 }
-/* .typing-text p span.active {
-    color: #17A2B8;
-} */
+.typing-text p span.active {
+    color: #17a2b8;
+}
 .typing-text p span.active::before {
     position: absolute;
     content: "";
@@ -110,7 +110,7 @@ body {
     transform: scale(0.89);
 }
 .content button:hover {
-    background: #FFFFFF;
+    background: #ffffff;
 }
 .content .result-details {
     display: flex;
