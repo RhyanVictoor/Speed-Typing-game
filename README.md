@@ -14,7 +14,7 @@ Este é um jogo que gera palavras aleatórias desenvolvido com HTML, CSS e JavaS
 
 ## Pré-requisitos
 
-Não há pré-requisitos específicos para utilizar este gerador de senha.
+Não há pré-requisitos específicos para utilizar.
 
 ## Contribuindo
 
